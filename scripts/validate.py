@@ -68,7 +68,13 @@ for f in ROOT.glob("examples/**/*"):
     for hit in sorted(set(id_re.findall(body))):
         err(f"{f.relative_to(ROOT)}: 对外正文出现内部编号 {hit}")
 
-# 5. 不提交疑似真实手机号
+# 5. 网页版提示词必须带上核心规则，防止和 SKILL.md 漂移
+prompt = (ROOT / "PROMPT.md").read_text(encoding="utf-8")
+for must in ("参与/协助", "计划 → 原型", "确认", "最多 3 个", "不要输出通过率", "统一口径"):
+    if must not in prompt:
+        err(f"PROMPT.md 缺少核心规则关键词：{must}")
+
+# 6. 不提交疑似真实手机号
 phone_re = re.compile(r"(?<!\d)1[3-9]\d{9}(?!\d)")
 for f in ROOT.rglob("*"):
     if f.is_file() and ".git" not in f.parts and f.suffix in {".md", ".html", ".txt", ".yaml", ".py"}:

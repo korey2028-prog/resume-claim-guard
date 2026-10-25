@@ -1,4 +1,4 @@
-# resume-claim-guard
+# 简历事实守卫 resume-claim-guard
 
 从岗位 JD 出发，写一份面试官一对一追问时你都答得上来的简历。
 
