@@ -24,9 +24,11 @@ AI 很会把简历往 JD 上靠，但它不知道你真正做过什么。于是�
 
 | 你用的工具 | 怎么接入 |
 |---|---|
+| 豆包、ChatGPT（最省事） | 直接打开智能体链接，发 JD 就能用（链接发布后补在这里；配置见 [platforms/](platforms/)） |
 | 豆包、ChatGPT、Kimi、DeepSeek 等网页聊天 | 打开 [PROMPT.md](PROMPT.md)，复制整段粘贴进对话框，再贴上 JD。不用安装任何东西 |
 | Claude Code | 对它说：`把 https://github.com/korey2028-prog/resume-claim-guard 克隆到 ~/.claude/skills/resume-claim-guard` |
 | Codex | 对它说：`把 https://github.com/korey2028-prog/resume-claim-guard 克隆到 ~/.codex/skills/resume-claim-guard` |
+| WorkBuddy | 对它说：`把 https://github.com/korey2028-prog/resume-claim-guard 克隆到 ~/.workbuddy/skills/resume-claim-guard` |
 | 其他支持 SKILL.md 的 Agent | 把仓库放进它的 skills 目录 |
 
 **第二步：你手里有什么？**
