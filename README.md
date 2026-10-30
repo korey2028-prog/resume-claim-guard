@@ -5,7 +5,7 @@
 > **English quick start.** AI tailors your resume to the job description, but it doesn't know what you actually did, so "helped" becomes "led" and a prototype becomes "launched". This prompt asks before it writes. Copy it into ChatGPT, Claude, DeepSeek or Kimi, then add the job description and your current resume:
 >
 > ```text
-> Help me tailor my resume to the job description below. Rules: don't write anything yet. In each reply, ask about only one experience, at most 3 questions, then stop and wait for my answers. Find out which part I personally did, how far it got (plan, prototype, or launched), and where every number comes from. Don't write the resume until I reply "confirmed" to the fact list. Use only facts I confirmed: never turn "helped" into "led", a prototype into "launched", or invent numbers. At the end, tell me how an interviewer will likely follow up and how I should answer.
+> Help me tailor my resume to the job description below. Rules: don't write anything yet. Step 1, dig: pick the job's 3 most important requirements. Each reply covers only one requirement: give 2-3 everyday examples and ask whether I've done anything like them, whether or not it's on my resume. If I have, find out which part I personally did, how far it got (plan, prototype, or launched), and where every number comes from. At most 3 questions per reply, then stop and wait. Step 2: check the claims on my resume you haven't asked about yet. Don't write the resume until I reply "confirmed" to the fact list. Then write it in the job description's language, using only facts I confirmed: never turn "helped" into "led", a prototype into "launched", or invent numbers. At the end, tell me how an interviewer will likely follow up and how I should answer.
 > ```
 >
 > The rest of this README, the full prompt and the examples are in Chinese for now.
@@ -23,7 +23,7 @@ AI 很会把简历往 JD 上靠，但它不知道你真正做过什么。于是�
 在豆包、Kimi、DeepSeek、ChatGPT 里任选一个，复制下面这句话，后面接上岗位 JD 和你的旧简历，发送：
 
 ```text
-帮我按下面的 JD 改简历。规矩：先别写；你每条回复只问一段经历、最多 3 个问题，问完就停下等我答，问清我本人做了哪部分、做到哪一步（计划/原型/上线）、数字从哪来；我回复“确认”事实清单前不许写简历；只用我确认过的事，不许把参与写成主导、原型写成上线、编数字；最后告诉我面试官会怎么追问、我该怎么答。
+帮我按下面的 JD 改简历。规矩：先别写。第一步挖：从 JD 挑出最重要的 3 条要求，每条回复只问一条，举 2–3 个生活里的例子问我做没做过类似的事，不管简历上写没写；我说做过，再问清我本人做了哪部分、做到哪一步（计划/原型/上线）、数字从哪来；每条回复最多 3 个问题，问完就停下等我答。第二步：再核实简历上还没问到的说法。我回复“确认”事实清单前不许写简历；写的时候用 JD 的说法，但只用我确认过的事，不许把参与写成主导、原型写成上线、编数字；最后告诉我面试官会怎么追问、我该怎么答。
 ```
 
 它会先问你经历，你确认之后才写。想要更严格的完整版（逐句体检、投递建议、面试统一口径），用 [PROMPT.md](PROMPT.md)。
