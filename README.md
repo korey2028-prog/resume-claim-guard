@@ -2,6 +2,14 @@
 
 从岗位 JD 出发，写一份面试官一对一追问时你都答得上来的简历。
 
+> **English quick start.** AI tailors your resume to the job description, but it doesn't know what you actually did, so "helped" becomes "led" and a prototype becomes "launched". This prompt asks before it writes. Copy it into ChatGPT, Claude, DeepSeek or Kimi, then add the job description and your current resume:
+>
+> ```text
+> Help me tailor my resume to the job description below. Rules: don't write anything yet. In each reply, ask about only one experience, at most 3 questions, then stop and wait for my answers. Find out which part I personally did, how far it got (plan, prototype, or launched), and where every number comes from. Don't write the resume until I reply "confirmed" to the fact list. Use only facts I confirmed: never turn "helped" into "led", a prototype into "launched", or invent numbers. At the end, tell me how an interviewer will likely follow up and how I should answer.
+> ```
+>
+> The rest of this README, the full prompt and the examples are in Chinese for now.
+
 AI 很会把简历往 JD 上靠，但它不知道你真正做过什么。于是“参与”被写成“主导”、原型被写成“上线”、随手编一个“转化率提升 35%”。简历是好看了，面试官问一句“这个数字怎么来的”，你就答不上来。
 
 这个 Skill 把顺序反过来：**先问你做过什么，再写简历**。
