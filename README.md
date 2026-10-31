@@ -95,7 +95,7 @@ JD 和简历可以是 PDF、Word、HTML、Markdown 或直接粘贴的文字。
 ```
 SKILL.md              入口与五步流程
 PROMPT.md             网页聊天版提示词
-references/           每一步的细则（拆 JD、反问、写简历、体检、面试预演、输出格式）
+references/           每一步的细则（拆 JD、反问、写简历、体检、面试预演、输出格式、导出排版）
 templates/facts.md    事实清单模板
 agents/openai.yaml    Codex 元数据
 scripts/validate.py   仓库自检（链接、元数据、编号泄露、手机号）

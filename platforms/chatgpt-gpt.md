@@ -8,8 +8,8 @@
 | Description | 发我岗位 JD，我先问你做过什么，再写一份面试官追问也答得上来的简历。不替你编任何经历。 |
 | Instructions | [PROMPT.md](../PROMPT.md) 代码块里的全文，原样粘贴 |
 | Conversation starters | 这是我想投的岗位，帮我准备简历 / 我只有一份简历，帮我看看哪里经不起追问 / 这是 AI 改过的简历，和原版比哪里写过头了 |
-| Knowledge | 可选：上传 [SKILL.md](../SKILL.md) 和 `references/` 里的文件，作为细则参考 |
-| Capabilities | 关掉 Web Search、Image Generation；Code Interpreter 可开（读 PDF 用） |
+| Knowledge | 可选：上传 [SKILL.md](../SKILL.md) 和 `references/` 里的文件，作为细则参考；可选：上传两份字体文件，用于导出 PDF/DOCX |
+| Capabilities | 关掉 Web Search、Image Generation；Code Interpreter 可开（读 PDF 用，也用于按 typography.md 导出） |
 | 分享 | 先 Only me 跑完 [测试单](../tests/web-chat.md)，通过后改为 Anyone with the link |
 
 改了 `PROMPT.md` 之后，记得同步更新 Instructions。
