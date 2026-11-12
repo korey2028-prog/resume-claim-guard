@@ -1,5 +1,4 @@
 # 简历事实守卫 resume-claim-guard
-<a href="https://fwfw.app/item/resume-claim-guard" target="_blank"><img src="https://fwfw.app/badge-white.svg" width="250" height="54" alt="Featured on FWFW" /></a>
 
 从岗位 JD 出发，写一份面试官一对一追问时你都答得上来的简历。
 
@@ -112,3 +111,5 @@ examples/             虚构示例
 ## 许可证
 
 MIT
+
+<a href="https://fwfw.app/item/resume-claim-guard" target="_blank"><img src="https://fwfw.app/badge-white.svg" width="125" height="27" alt="Featured on FWFW" /></a>
